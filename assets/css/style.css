@@ -1,0 +1,40 @@
+@import "./normalize.css";
+@import "./reset.css";
+
+.teste{
+    --bg1: whitesmoke;
+    --bg2: #c0c0c0;
+    --text: black;
+}
+
+body{
+    background-color: var(--bg1);
+    color: var(--text);
+}
+
+.principal{
+    margin: 8%;
+    padding: 30px;
+    background-color: var(--bg2);
+
+}
+
+.principal h1{
+    text-align: center;
+}
+
+.principal p{
+    text-align: justify;
+}
+
+.divThemeSelect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoThemeSelect{
+    margin-right: 20px;
+    width: 15px;
+    height: 15px;
+}
